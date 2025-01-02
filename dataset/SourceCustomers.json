@@ -1,0 +1,22 @@
+{
+	"name": "SourceCustomers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkService_capstone",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "kamalpurbia77/AdventureWorks/refs/heads/main/AdventureWorks_Customers.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
